@@ -146,7 +146,7 @@ if($_SESSION['name']==''){
                     </div>
                     <div class="box box3">
                         <i class="uil uil-heart"></i>
-                        <span class="text">Total doantes</span>
+                        <span class="text">Total donates</span>
                         <?php
                            $query="SELECT count(*) as count FROM food_donations";
                            $result=mysqli_query($connection, $query);
@@ -189,7 +189,7 @@ if($_SESSION['name']==''){
 
     ?>
 var xValues = ["Male","Female"];
-var xplace=["Madurai","chennai","coimbatore"];
+var xplace=["Kathmandu","Pokhara","Butwal"];
 var yplace=[<?php echo json_encode($madurai,JSON_HEX_TAG);?>,<?php echo json_encode($coimbatore,JSON_HEX_TAG);?>,<?php echo json_encode($chennai,JSON_HEX_TAG);?>];
 var yValues = [<?php echo json_encode($male,JSON_HEX_TAG);?>,<?php echo json_encode($female,JSON_HEX_TAG);?>,30];
 var barColors = ["#06C167","blue"];

@@ -35,7 +35,7 @@ if($_SESSION['name']==''){
 </head>
 <body>
     <nav>
-        <div class="logo-name">
+    <div class="logo-name">
             <div class="logo-image">
                 <!--<img src="images/logo.png" alt="">-->
             </div>
@@ -47,7 +47,7 @@ if($_SESSION['name']==''){
             <ul class="nav-links">
                 <li><a href="admin.php">
                     <i class="uil uil-estate"></i>
-                    <span class="link-name">Dahsboard</span>
+                    <span class="link-name">Dashboard</span>
                 </a></li>
                 <!-- <li><a href="#">
                     <i class="uil uil-files-landscapes"></i>
@@ -123,9 +123,9 @@ if($_SESSION['name']==''){
              <label for="location" class="logo">Select Location:</label>
              <!-- <br> -->
             <select id="location" name="location">
-               <option value="chennai">chennai</option>
-               <option value="madurai">madurai</option>
-               <option value="coimbatore">coimbatore</option>
+               <option value="chennai">Kathmandu</option>
+               <option value="madurai">Pokhara</option>
+               <option value="coimbatore">Butwal</option>
         
             </select>
                 <input type="submit" value="Get Details">
