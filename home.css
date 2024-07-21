@@ -148,6 +148,10 @@ header {
   .wrapper {
     padding: 20px 40px 20px 40px;
   }
+
+  .social {
+    margin: 0 auto;
+  }
 }
 .content {
   padding: 20px;
@@ -343,6 +347,9 @@ header {
   }
   .sociallist {
     padding-left: 60px;
+  }
+  .social {
+    margin: 0 auto;
   }
 }
 
