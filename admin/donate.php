@@ -47,7 +47,7 @@ if($_SESSION['name']==''){
             <ul class="nav-links">
                 <li><a href="admin.php">
                     <i class="uil uil-estate"></i>
-                    <span class="link-name">Dahsboard</span>
+                    <span class="link-name">Dashboard</span>
                 </a></li>
                 <!-- <li><a href="#">
                     <i class="uil uil-files-landscapes"></i>
@@ -100,7 +100,7 @@ if($_SESSION['name']==''){
         <div class="top">
             <i class="uil uil-bars sidebar-toggle"></i>
             <!-- <p>Food Donate</p> -->
-            <p  class ="logo" >Food <b style="color: #06C167; ">Donate</b></p>
+            <p  class ="logo" >Food <b style="color: #06C167; ">For All</b></p>
              <p class="user"></p>
             <!-- <div class="search-box">
                 <i class="uil uil-search"></i>
